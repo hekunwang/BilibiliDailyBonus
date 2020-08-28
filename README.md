@@ -24,11 +24,5 @@
 **本项目默认设置**: 每天早上 8 点打卡签到.
 
 
-#### 方法二 使用 Docker 容器(相对方法一较复杂)
-
-1. 找一台安装好 Docker 的服务器
-2. 在任意目录下执行 `git clone https://github.com/lyc8503/BilibiliDailyBonus && cd BilibiliDailyBonus`
-3. 执行 `docker build -t bilibili .`
-4. 安装 Cron, 并使用 cron 每天执行 `docker run --rm --env account=你的用户名 --env password=你的密码 bilibili` 
 
 
