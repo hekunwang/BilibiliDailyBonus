@@ -37,4 +37,4 @@
 2. 在任意目录下执行 `git clone https://github.com/lyc8503/BilibiliDailyBonus && cd BilibiliDailyBonus`
 3. 使用 pip 安装依赖库, 参考命令`pip3 install requests rsa chardet`
 4. 使用 Cron 每日执行 `python3 daily_bonus.py`
-
+  
